@@ -1,1 +1,1 @@
-web: holo.py -m update
+web: python -m update
