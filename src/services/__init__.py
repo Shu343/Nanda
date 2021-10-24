@@ -276,7 +276,7 @@ def get_genereic_service_handlers(services=None, keys=None) -> List[AbstractServ
 # Link handler #
 ################
 
-from data.models import Show, EpisodeScore, UnprocessedShow, Link
+from src.data.models import Show, EpisodeScore, UnprocessedShow, Link
 
 class AbstractInfoHandler(ABC, Requestable):
 	def __init__(self, key, name):
@@ -392,7 +392,7 @@ def get_link_handler(link_site=None, key:str=None) -> Optional[AbstractInfoHandl
 # Poll handler #
 ################
 
-from data.models import Poll
+from src.data.models import Poll
 
 class AbstractPollHandler(ABC, Requestable):
 	def __init__(self, key):
