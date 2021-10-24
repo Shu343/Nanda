@@ -5,7 +5,7 @@ from unidecode import unidecode
 from typing import Set, List, Optional
 from datetime import datetime, timezone
 
-from src.database.models import Show, ShowType, Stream, LiteStream, Service, LinkSite, Link, Episode, EpisodeScore, UnprocessedStream, UnprocessedShow, PollSite, Poll
+from src.data.models import Show, ShowType, Stream, LiteStream, Service, LinkSite, Link, Episode, EpisodeScore, UnprocessedStream, UnprocessedShow, PollSite, Poll
 
 def living_in(the_database):
 	"""
