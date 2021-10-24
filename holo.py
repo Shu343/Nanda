@@ -16,7 +16,7 @@ os.chdir(str(Path(__file__).parent.parent))
 
 # Do the things
 from data import database
-import services
+import src.services
 
 def main(config, args, extra_args):
 	from logging import debug, info, warning, error, exception
