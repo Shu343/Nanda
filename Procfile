@@ -1,1 +1,1 @@
-web: python -m update
+web: python -m src
