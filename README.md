@@ -56,4 +56,4 @@ oauth_secret = reddit_oath_key_secret
 
 ## setup on heroku
 fork Nanda
-create new app in heroku then<br> connect your github responsbilty and dono fill all var of config
+create new app in heroku then<br> connect your github responsbilty and done fill all var of config
