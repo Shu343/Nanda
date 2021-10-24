@@ -53,3 +53,7 @@ oauth_secret = reddit_oath_key_secret
 4. Update the show information by running `python src/holo.py -m update`
 5. Enable flairs on test subreddit
 6. The bot is now ready to post threads with `python src/holo.py`
+
+## setup on heroku
+fork Nanda
+create new app in heroku then<br> connect your github responsbilty and dono fill all var of config
