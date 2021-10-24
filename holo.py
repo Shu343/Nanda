@@ -84,7 +84,7 @@ if __name__ == "__main__":
 	args = parser.parse_args()
 	
 	# Load config file
-	import config.ini as config_loader
+	import src.config as config_loader
 	config_file = os.environ["HOLO_CONFIG"] if "HOLO_CONFIG" in os.environ else args.config_file[0]
 	c = config_loader.from_file(config_file)
 	if c is None:
