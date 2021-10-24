@@ -46,7 +46,7 @@ def from_file(file_path):
 		print("Failed to load config file")
 		return None
 	
-	config = Config.ini
+	config = Config()
 	
 	if "data" in parsed:
 		sec = parsed["data"]
