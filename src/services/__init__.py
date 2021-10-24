@@ -137,7 +137,7 @@ class Requestable:
 ###################
 
 from datetime import datetime
-from data.models import Episode, Stream, UnprocessedStream
+from src.data.models import Episode, Stream, UnprocessedStream
 
 class AbstractServiceHandler(ABC, Requestable):
 	def __init__(self, key, name, is_generic):
